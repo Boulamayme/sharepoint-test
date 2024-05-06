@@ -1,0 +1,25 @@
+.button2{
+  border: 1px solid #00965E !important;
+ // display: inline-block;
+  background-color: #ffffff !important;
+  color: #00965E !important;
+  padding: 8px 12px !important;
+  text-decoration: none;
+  border-radius: 10px !important;
+  transition: background-color 0.3s ease !important;
+  width: 200px !important;
+  margin-top: 70px;
+    
+
+  &:hover {
+    background-color: #003DA5 !important;
+    color:#ffffff !important;
+    text-decoration: none;
+  }
+
+}
+.test{
+	display: flex;
+	justify-content: center;
+	
+  }

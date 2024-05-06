@@ -1,0 +1,58 @@
+.body{
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  background-color: #F3F4F3;
+}
+.fullwidth{
+ 
+  width: 100%;
+  overflow-x: hidden;
+  // white-space: nowrap;
+  display: flex;
+  justify-content: center; /* Centrer les carrés horizontalement à l'intérieur de la div */
+  justify-content: space-between;
+  padding: 30px;
+  padding-left: 70px;
+  padding-right: 70px;
+  // margin: 50px;
+  
+}
+.square{
+  
+  // display: inline-block;
+  max-width:  16.66% !important; /* 100% / 6 */
+  padding: 10px;
+  box-sizing: border-box;
+  border: 1px  #ccc;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Ajouter une ombre noire avec transparence */
+  transition: transform 0.3s; /* Ajouter une transition pour un effet plus fluide lors du changement de taille */
+  background-color: #ffffff;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 125px;
+  // padding-left: 25px;
+  // padding-top: 25px;
+  // padding-right: 25px;
+  display: flex;
+  flex-direction: column;
+   
+}
+.img{
+  width: 50px;
+  height: auto;
+  display: block;
+  cursor: pointer;
+  max-width: 100%;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.ms-webpartzone-cell {
+  margin-bottom: 0px !important;
+}
+
+.ms-webpart-cell {
+  margin-bottom: 0px !important;
+}

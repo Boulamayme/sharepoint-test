@@ -1,0 +1,52 @@
+
+
+.container{
+  display: flex;
+  
+}
+
+.image{
+  width: 50px !important; /* Définir la largeur de l'image */
+  height: 50px !important; /* Définir la hauteur de l'image */
+  border-radius: 50% !important; /* Rendre l'image ronde en utilisant un rayon de 50% */
+  display: block; /* Pour centrer horizontalement */
+  margin: 0 auto; /* Pour centrer horizontalement */
+
+}
+.boutton{
+  border: 1px solid #00965E !important;
+ // display: inline-block;
+  background-color: #ffffff !important;
+  color: #00965E !important;
+  padding: 8px 12px !important;
+  text-decoration: none;
+  border-radius: 10px !important;
+  transition: background-color 0.3s ease !important;
+  width: 200px !important;
+    
+
+  &:hover {
+    background-color: #003DA5 !important;
+    color:#ffffff !important;
+    text-decoration: none;
+  }
+
+}
+.style{
+  color: #0B7077 !important;
+  text-align: center !important;
+}
+.style2{
+  color: #696984 !important;
+  text-align: center !important;
+
+}
+.centrebtn{
+  display: flex; /* Utilisation de flexbox */
+  justify-content: center; /* Centrage horizontal */
+
+}
+.shadow{
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2); /* Ajoute une ombre à la carte */
+  transition: 0.3s; /* Ajoute une transition en douceur */
+}

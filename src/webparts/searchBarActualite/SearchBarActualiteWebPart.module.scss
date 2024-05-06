@@ -1,0 +1,94 @@
+.container {
+  display: flex;
+  align-items: center;
+  height: 250px;
+}
+
+.searchbar {
+  display: flex;
+  align-items: center;
+}
+
+.searchbar input {
+  margin-right: 10px; /* Espacement entre l'input et le bouton */
+}
+
+.buttons {
+  margin-left: auto; /* Pousse les boutons à droite */
+  display: flex;
+  margin-right: 10px;
+}
+
+.child{
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  // background-color: #003DA5;
+  border-radius: 2px;
+  // box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  display: flex;
+  align-items: center;
+  padding-left: 20px;
+  border-radius: 5px;
+  color: #202020;
+  border: solid 1px #202020;
+  // width: 120px;
+  margin-left: 15px;
+}
+.content{
+  display: flex;
+  align-items: center !important;
+  margin-left: 30px;
+}
+
+/* Style du bouton dropdown */
+.dropbtn {
+  background-color: #ffffff;
+  color: #BFC6DC;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #BFC6DC;
+  cursor: pointer;
+  border-radius: 5px;
+  width: 170px;
+}
+
+/* Style du conteneur du dropdown */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Style du contenu du dropdown (menu déroulant) */
+.dropdowncontent {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Style des liens dans le dropdown */
+.dropdowncontent a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Changement de couleur du lien au survol */
+.dropdowncontent a:hover {
+  background-color: #f1f1f1;
+}
+
+/* Affichage du dropdown quand le bouton est survolé */
+.dropdown:hover .dropdowncontent {
+  display: block;
+}
+
+/* Style de l'icône de chevron */
+.fachevrondown {
+  margin-left: 5px;
+}
+.test{
+  width: 400px !important;
+}

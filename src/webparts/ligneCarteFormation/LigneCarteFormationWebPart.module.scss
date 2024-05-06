@@ -1,0 +1,34 @@
+.card1{
+
+  border: 1px solid #ccc;
+  border-radius: 14px !important;
+  overflow: hidden !important;
+  height: 400px !important;
+  width: 250px !important;
+  
+}
+
+.button1{
+  background-color:#003DA5 !important;
+  color: #ffffff !important;
+  width: 100px !important;
+}
+.img{
+  // width: 100%;
+  height: 200px;
+  // object-fit: cover;
+}
+.date1{
+  margin-left: 20px;
+  margin-top: 5px;
+}
+.text1{
+color: #0B7077 !important;
+font-size: 20px;
+}
+
+.cardContainer{
+  display: flex; /* Utilisation de flexbox */
+  justify-content: space-between; /* Espacement égal entre les cartes */
+}
+

@@ -1,0 +1,39 @@
+.container {
+  position: relative;
+  display: inline-block;
+}
+
+.image {
+  display: block;
+  max-width: 100%; /* Ajustez selon vos besoins */
+}
+
+.caption {
+  position: absolute;
+  bottom: 50%;
+  left: 50px !important; /* Espace entre la légende et le bord gauche de l'image */
+  transform: translateY(50%);
+  // background-color: rgba(0, 61, 165, 0.49);
+  // background-color: var(--user-color, #000000);
+  ; /* Fond de la légende */
+  padding: 10px; /* Espacement interne de la légende */
+  font-size: 16px; /* Taille de la légende */
+  color: #ffffff;
+  display: flex;
+  width: 300px;;
+ 
+}
+
+
+
+.leftcolumn{
+  flex: 1; /* Les deux colonnes prennent la même largeur */
+}
+.rightcolumn {
+  flex:3;
+}
+
+.icon {
+  margin-right: 10px; /* Espacement entre l'icône et le texte */
+}
+

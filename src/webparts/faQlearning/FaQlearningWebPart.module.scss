@@ -1,0 +1,44 @@
+.container{
+  display: flex; /* Utilisation de flexbox pour aligner horizontalement les éléments */
+  justify-content: center; /* Centre horizontalement les éléments enfants */
+}
+
+.childContainer{
+  display: flex; /* Utilisation de flexbox pour aligner horizontalement les éléments enfants */
+  width: 100%; /* Largeur totale de la div parente */
+}
+
+.child1{
+  flex: 1; /* Les deux enfants prennent 50% de la largeur de la div parente */
+  margin: 0 5px; /* Marge entre les éléments enfants */
+  // background-color: red;
+  width: 50%;
+}
+.child2{
+  flex: 1; /* Les deux enfants prennent 50% de la largeur de la div parente */
+  margin: 0 5px; /* Marge entre les éléments enfants */
+  // background-color: greenyellow;
+  display: flex;
+  flex-direction: column;
+  margin-left: 40px;
+}
+.img{
+  max-width: 100% !important;
+  height: auto;
+}
+.btn{
+  margin-bottom: 25px;
+  background-color:#ffffff ;
+  border: 0px ;
+  width: 90%;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2); /* Ajoute une ombre à la carte */
+  transition: 0.3s; /* Ajoute une transition en douceur */
+  border-radius: 5px;
+  color: #170F49;
+  height: 50px;
+}
+.titre{
+  margin-bottom: 50px;
+  color: #00965E;
+  font-size: 48px;
+}

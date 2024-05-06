@@ -1,0 +1,82 @@
+.container {
+  display: flex; /* Utilisez Flexbox pour disposer les éléments horizontalement */
+  align-items: center; /* Centrer les éléments verticalement */
+}
+
+.image {
+  flex: 1; /* La partie image occupera 1/5 de la largeur de la div */
+}
+
+.image img {
+  border-radius: 50%; /* Pour rendre l'image circulaire */
+  width: 100%; /* Pour remplir la largeur de la div */
+  max-width: 300px; /* Ajustez la largeur maximale de l'image selon vos besoins */
+  display: block; /* Ajustement pour centrer l'image */
+  margin: 0 auto; /* Ajustement pour centrer l'image */
+}
+
+.text {
+  flex: 3; /* La partie texte occupera le reste de la largeur */
+}
+
+.text p {
+  margin-left: 20px; /* Espace entre l'image et le texte */
+}
+
+
+.container2 {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100% !important;
+  margin-top: 60px;
+}
+
+.row {
+  display: flex;
+  width: 100% !important;
+}
+
+
+.square {
+  width: 200px;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  // margin: 0px;
+
+}
+
+.white {
+  background-color:#ffffff ;
+}
+
+.blue {
+  background-color: #003DA5;
+}
+
+.green {
+  background-color: #00965E;
+}
+
+.gray {
+  background-color: rgba(109, 117, 128, 0.4);
+}
+.test0{
+  max-width: 80%;
+}
+.test1{
+  color: white;
+  font-size: 14px;
+  text-align: center;
+
+}
+.ligne {
+  height: 2px; /* Hauteur de la ligne */
+  background-color: rgba(109, 117, 128, 0.4);  /* Couleur de fond de la ligne */
+  margin-top: 30px;
+}
+
+
+

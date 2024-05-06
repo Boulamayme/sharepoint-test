@@ -1,0 +1,41 @@
+
+.test{
+  width: 400px !important;
+}
+.buttoncontainer {
+  display: flex; /* Utilisation de flexbox pour aligner horizontalement */
+  justify-content: space-between; /* Espacement égal entre les boutons */
+  width: 100%; /* Largeur de la div à 100% */
+}
+
+.buttoncontainer button {
+  padding: 10px 20px; /* Ajoutez un peu de remplissage pour les boutons */
+  background-color: #ffffff;
+  border-radius: 4px !important;
+  border:  solid 1px  #C4C4C4 !important;
+  color: #C4C4C4 ;
+  // padding: 8px 12px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+
+  &:hover {
+    background-color: #00965E;
+    color:#ffffff;
+    text-decoration: none;
+  }
+}
+.container{
+  display: flex;
+  flex-direction: column; 
+
+}
+
+.marg{
+  margin-bottom: 30px;
+}
+.but1{
+  background-color:#00965E !important ;
+  color: #ffffff !important;
+
+  
+}

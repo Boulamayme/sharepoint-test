@@ -1,0 +1,36 @@
+
+
+.compte{
+  font-size: 42px; /* Taille de la police */
+  // font-weight: bold; /* Gras */
+  text-align: center; /* Centrage du texte */
+  color: white;
+}
+.titre{
+  text-align: center;
+}
+.fond{
+  width: 100%;
+  margin: 0 auto; /* pour centrer horizontalement */
+  padding: 0px; /* ou ajustez selon vos besoins */
+  box-sizing: border-box; /* pour inclure les marges et le padding dans la largeur totale */
+}
+.test1{
+  text-align: center; 
+  position: relative; 
+  background: url('https://plus.unsplash.com/premium_photo-1685265131808-df762694ccb7?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8YWZ0ZXJ3b3JrfGVufDB8MHwwfHx8MA%3D%3D') center/cover no-repeat; 
+  height: 300px;
+}
+.test2{
+  background-color: rgba(0, 61, 165, 0.5);
+  position: absolute;
+  top: 0;
+  left: 0; 
+  right: 0; 
+  bottom: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}

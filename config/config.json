@@ -1,0 +1,437 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "actualite-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/actualite/ActualiteWebPart.js",
+          "manifest": "./src/webparts/actualite/ActualiteWebPart.manifest.json"
+        }
+      ]
+    },
+    "agenda-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/agenda/AgendaWebPart.js",
+          "manifest": "./src/webparts/agenda/AgendaWebPart.manifest.json"
+        }
+      ]
+    },
+    "birthday-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/birthday/BirthdayWebPart.js",
+          "manifest": "./src/webparts/birthday/BirthdayWebPart.manifest.json"
+        }
+      ]
+    },
+    "bonne-pratiques-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/bonnePratiques/BonnePratiquesWebPart.js",
+          "manifest": "./src/webparts/bonnePratiques/BonnePratiquesWebPart.manifest.json"
+        }
+      ]
+    },
+    "carousel-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/carousel/CarouselWebPart.js",
+          "manifest": "./src/webparts/carousel/CarouselWebPart.manifest.json"
+        }
+      ]
+    },
+    "carte-actualite-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/carteActualite/CarteActualiteWebPart.js",
+          "manifest": "./src/webparts/carteActualite/CarteActualiteWebPart.manifest.json"
+        }
+      ]
+    },
+    "carte-annuaire-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/carteAnnuaire/CarteAnnuaireWebPart.js",
+          "manifest": "./src/webparts/carteAnnuaire/CarteAnnuaireWebPart.manifest.json"
+        }
+      ]
+    },
+    "carte-document-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/carteDocument/CarteDocumentWebPart.js",
+          "manifest": "./src/webparts/carteDocument/CarteDocumentWebPart.manifest.json"
+        }
+      ]
+    },
+    "carte-formation-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/carteFormation/CarteFormationWebPart.js",
+          "manifest": "./src/webparts/carteFormation/CarteFormationWebPart.manifest.json"
+        }
+      ]
+    },
+    "carte-vie-entreprise-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/carteVieEntreprise/CarteVieEntrepriseWebPart.js",
+          "manifest": "./src/webparts/carteVieEntreprise/CarteVieEntrepriseWebPart.manifest.json"
+        }
+      ]
+    },
+    "compte-a-rebours-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/compteARebours/CompteAReboursWebPart.js",
+          "manifest": "./src/webparts/compteARebours/CompteAReboursWebPart.manifest.json"
+        }
+      ]
+    },
+    "enoe-sagrandit-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/enoeSagrandit/EnoeSagranditWebPart.js",
+          "manifest": "./src/webparts/enoeSagrandit/EnoeSagranditWebPart.manifest.json"
+        }
+      ]
+    },
+    "equipe-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/equipe/EquipeWebPart.js",
+          "manifest": "./src/webparts/equipe/EquipeWebPart.manifest.json"
+        }
+      ]
+    },
+    "footer-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/footer/FooterWebPart.js",
+          "manifest": "./src/webparts/footer/FooterWebPart.manifest.json"
+        }
+      ]
+    },
+    "image-si-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/imageSi/ImageSiWebPart.js",
+          "manifest": "./src/webparts/imageSi/ImageSiWebPart.manifest.json"
+        }
+      ]
+    },
+    "lien-services-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/lienServices/LienServicesWebPart.js",
+          "manifest": "./src/webparts/lienServices/LienServicesWebPart.manifest.json"
+        }
+      ]
+    },
+    "lien-utile-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/lienUtile/LienUtileWebPart.js",
+          "manifest": "./src/webparts/lienUtile/LienUtileWebPart.manifest.json"
+        }
+      ]
+    },
+    "rubrique-motres-equipe-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/rubriqueMotresEquipe/RubriqueMotresEquipeWebPart.js",
+          "manifest": "./src/webparts/rubriqueMotresEquipe/RubriqueMotresEquipeWebPart.manifest.json"
+        }
+      ]
+    },
+    "rubrique-outils-si-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/rubriqueOutilsSi/RubriqueOutilsSiWebPart.js",
+          "manifest": "./src/webparts/rubriqueOutilsSi/RubriqueOutilsSiWebPart.manifest.json"
+        }
+      ]
+    },
+    "weather-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/weather/WeatherWebPart.js",
+          "manifest": "./src/webparts/weather/WeatherWebPart.manifest.json"
+        }
+      ]
+    },
+    "weather-multiple-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/weatherMultiple/WeatherMultipleWebPart.js",
+          "manifest": "./src/webparts/weatherMultiple/WeatherMultipleWebPart.manifest.json"
+        }
+      ]
+    },
+    "carte-annuaire-2-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/carteAnnuaire2/CarteAnnuaire2WebPart.js",
+          "manifest": "./src/webparts/carteAnnuaire2/CarteAnnuaire2WebPart.manifest.json"
+        }
+      ]
+    },
+    "carousel-2-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/carousel2/Carousel2WebPart.js",
+          "manifest": "./src/webparts/carousel2/Carousel2WebPart.manifest.json"
+        }
+      ]
+    },
+    "actualite-2-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/actualite2/Actualite2WebPart.js",
+          "manifest": "./src/webparts/actualite2/Actualite2WebPart.manifest.json"
+        }
+      ]
+    },
+    "liens-market-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/liensMarket/LiensMarketWebPart.js",
+          "manifest": "./src/webparts/liensMarket/LiensMarketWebPart.manifest.json"
+        }
+      ]
+    },
+    "bande-haute-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/bandeHaute/BandeHauteWebPart.js",
+          "manifest": "./src/webparts/bandeHaute/BandeHauteWebPart.manifest.json"
+        }
+      ]
+    },
+    "bande-vie-entreprise-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/bandeVieEntreprise/BandeVieEntrepriseWebPart.js",
+          "manifest": "./src/webparts/bandeVieEntreprise/BandeVieEntrepriseWebPart.manifest.json"
+        }
+      ]
+    },
+    "ligne-annuaire-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/ligneAnnuaire/LigneAnnuaireWebPart.js",
+          "manifest": "./src/webparts/ligneAnnuaire/LigneAnnuaireWebPart.manifest.json"
+        }
+      ]
+    },
+    "search-bar-annuaire-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/searchBarAnnuaire/SearchBarAnnuaireWebPart.js",
+          "manifest": "./src/webparts/searchBarAnnuaire/SearchBarAnnuaireWebPart.manifest.json"
+        }
+      ]
+    },
+    "header-enoe-edu-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/headerEnoeEdu/HeaderEnoeEduWebPart.js",
+          "manifest": "./src/webparts/headerEnoeEdu/HeaderEnoeEduWebPart.manifest.json"
+        }
+      ]
+    },
+    "ligne-carte-formation-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/ligneCarteFormation/LigneCarteFormationWebPart.js",
+          "manifest": "./src/webparts/ligneCarteFormation/LigneCarteFormationWebPart.manifest.json"
+        }
+      ]
+    },
+    "formations-categorie-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/formationsCategorie/FormationsCategorieWebPart.js",
+          "manifest": "./src/webparts/formationsCategorie/FormationsCategorieWebPart.manifest.json"
+        }
+      ]
+    },
+    "ligne-cartes-formation-categorie-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/ligneCartesFormationCategorie/LigneCartesFormationCategorieWebPart.js",
+          "manifest": "./src/webparts/ligneCartesFormationCategorie/LigneCartesFormationCategorieWebPart.manifest.json"
+        }
+      ]
+    },
+    "fa-qlearning-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/faQlearning/FaQlearningWebPart.js",
+          "manifest": "./src/webparts/faQlearning/FaQlearningWebPart.manifest.json"
+        }
+      ]
+    },
+    "ligne-formation-video-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/ligneFormationVideo/LigneFormationVideoWebPart.js",
+          "manifest": "./src/webparts/ligneFormationVideo/LigneFormationVideoWebPart.manifest.json"
+        }
+      ]
+    },
+    "ligne-actualite-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/ligneActualite/LigneActualiteWebPart.js",
+          "manifest": "./src/webparts/ligneActualite/LigneActualiteWebPart.manifest.json"
+        }
+      ]
+    },
+    "search-bar-actualite-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/searchBarActualite/SearchBarActualiteWebPart.js",
+          "manifest": "./src/webparts/searchBarActualite/SearchBarActualiteWebPart.manifest.json"
+        }
+      ]
+    },
+    "bande-wrike-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/bandeWrike/BandeWrikeWebPart.js",
+          "manifest": "./src/webparts/bandeWrike/BandeWrikeWebPart.manifest.json"
+        }
+      ]
+    },
+    "en-tete-soulignee-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/enTeteSoulignee/EnTeteSouligneeWebPart.js",
+          "manifest": "./src/webparts/enTeteSoulignee/EnTeteSouligneeWebPart.manifest.json"
+        }
+      ]
+    },
+    "boutton-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/boutton/BouttonWebPart.js",
+          "manifest": "./src/webparts/boutton/BouttonWebPart.manifest.json"
+        }
+      ]
+    },
+    "mis-ajour-wrike-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/misAjourWrike/MisAjourWrikeWebPart.js",
+          "manifest": "./src/webparts/misAjourWrike/MisAjourWrikeWebPart.manifest.json"
+        }
+      ]
+    },
+    "debut-enoe-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/debutEnoe/DebutEnoeWebPart.js",
+          "manifest": "./src/webparts/debutEnoe/DebutEnoeWebPart.manifest.json"
+        }
+      ]
+    },
+    "milieu-enoe-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/milieuEnoe/MilieuEnoeWebPart.js",
+          "manifest": "./src/webparts/milieuEnoe/MilieuEnoeWebPart.manifest.json"
+        }
+      ]
+    },
+    "fin-enoe-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/finEnoe/FinEnoeWebPart.js",
+          "manifest": "./src/webparts/finEnoe/FinEnoeWebPart.manifest.json"
+        }
+      ]
+    },
+    "faq-milieu-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/faqMilieu/FaqMilieuWebPart.js",
+          "manifest": "./src/webparts/faqMilieu/FaqMilieuWebPart.manifest.json"
+        }
+      ]
+    },
+    "faq-head-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/faqHead/FaqHeadWebPart.js",
+          "manifest": "./src/webparts/faqHead/FaqHeadWebPart.manifest.json"
+        }
+      ]
+    },
+    "check-box-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/checkBox/CheckBoxWebPart.js",
+          "manifest": "./src/webparts/checkBox/CheckBoxWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {
+    "jquery": {
+      "path": "node_modules/jquery/dist/jquery.min.js",
+      "globalName": "jQuery"
+    }
+  },
+  "localizedResources": {
+    "ActualiteWebPartStrings": "lib/webparts/actualite/loc/{locale}.js",
+    "AgendaWebPartStrings": "lib/webparts/agenda/loc/{locale}.js",
+    "BirthdayWebPartStrings": "lib/webparts/birthday/loc/{locale}.js",
+    "BonnePratiquesWebPartStrings": "lib/webparts/bonnePratiques/loc/{locale}.js",
+    "CarouselWebPartStrings": "lib/webparts/carousel/loc/{locale}.js",
+    "CarteActualiteWebPartStrings": "lib/webparts/carteActualite/loc/{locale}.js",
+    "CarteAnnuaireWebPartStrings": "lib/webparts/carteAnnuaire/loc/{locale}.js",
+    "CarteDocumentWebPartStrings": "lib/webparts/carteDocument/loc/{locale}.js",
+    "CarteFormationWebPartStrings": "lib/webparts/carteFormation/loc/{locale}.js",
+    "CarteVieEntrepriseWebPartStrings": "lib/webparts/carteVieEntreprise/loc/{locale}.js",
+    "CompteAReboursWebPartStrings": "lib/webparts/compteARebours/loc/{locale}.js",
+    "EnoeSagranditWebPartStrings": "lib/webparts/enoeSagrandit/loc/{locale}.js",
+    "EquipeWebPartStrings": "lib/webparts/equipe/loc/{locale}.js",
+    "FooterWebPartStrings": "lib/webparts/footer/loc/{locale}.js",
+    "ImageSiWebPartStrings": "lib/webparts/imageSi/loc/{locale}.js",
+    "LienServicesWebPartStrings": "lib/webparts/lienServices/loc/{locale}.js",
+    "LienUtileWebPartStrings": "lib/webparts/lienUtile/loc/{locale}.js",
+    "RubriqueMotresEquipeWebPartStrings": "lib/webparts/rubriqueMotresEquipe/loc/{locale}.js",
+    "RubriqueOutilsSiWebPartStrings": "lib/webparts/rubriqueOutilsSi/loc/{locale}.js",
+    "WeatherWebPartStrings": "lib/webparts/weather/loc/{locale}.js",
+    "WeatherMultipleWebPartStrings": "lib/webparts/weatherMultiple/loc/{locale}.js",
+    "CarteAnnuaire2WebPartStrings": "lib/webparts/carteAnnuaire2/loc/{locale}.js",
+    "Carousel2WebPartStrings": "lib/webparts/carousel2/loc/{locale}.js",
+    "Actualite2WebPartStrings": "lib/webparts/actualite2/loc/{locale}.js",
+    "LiensMarketWebPartStrings": "lib/webparts/liensMarket/loc/{locale}.js",
+    "BandeHauteWebPartStrings": "lib/webparts/bandeHaute/loc/{locale}.js",
+    "BandeVieEntrepriseWebPartStrings": "lib/webparts/bandeVieEntreprise/loc/{locale}.js",
+    "LigneAnnuaireWebPartStrings": "lib/webparts/ligneAnnuaire/loc/{locale}.js",
+    "SearchBarAnnuaireWebPartStrings": "lib/webparts/searchBarAnnuaire/loc/{locale}.js",
+    "HeaderEnoeEduWebPartStrings": "lib/webparts/headerEnoeEdu/loc/{locale}.js",
+    "LigneCarteFormationWebPartStrings": "lib/webparts/ligneCarteFormation/loc/{locale}.js",
+    "FormationsCategorieWebPartStrings": "lib/webparts/formationsCategorie/loc/{locale}.js",
+    "LigneCartesFormationCategorieWebPartStrings": "lib/webparts/ligneCartesFormationCategorie/loc/{locale}.js",
+    "FaQlearningWebPartStrings": "lib/webparts/faQlearning/loc/{locale}.js",
+    "LigneFormationVideoWebPartStrings": "lib/webparts/ligneFormationVideo/loc/{locale}.js",
+    "LigneActualiteWebPartStrings": "lib/webparts/ligneActualite/loc/{locale}.js",
+    "SearchBarActualiteWebPartStrings": "lib/webparts/searchBarActualite/loc/{locale}.js",
+    "BandeWrikeWebPartStrings": "lib/webparts/bandeWrike/loc/{locale}.js",
+    "EnTeteSouligneeWebPartStrings": "lib/webparts/enTeteSoulignee/loc/{locale}.js",
+    "BouttonWebPartStrings": "lib/webparts/boutton/loc/{locale}.js",
+    "MisAjourWrikeWebPartStrings": "lib/webparts/misAjourWrike/loc/{locale}.js",
+    "DebutEnoeWebPartStrings": "lib/webparts/debutEnoe/loc/{locale}.js",
+    "MilieuEnoeWebPartStrings": "lib/webparts/milieuEnoe/loc/{locale}.js",
+    "FinEnoeWebPartStrings": "lib/webparts/finEnoe/loc/{locale}.js",
+    "FaqMilieuWebPartStrings": "lib/webparts/faqMilieu/loc/{locale}.js",
+    "FaqHeadWebPartStrings": "lib/webparts/faqHead/loc/{locale}.js",
+    "CheckBoxWebPartStrings": "lib/webparts/checkBox/loc/{locale}.js"
+  }
+}

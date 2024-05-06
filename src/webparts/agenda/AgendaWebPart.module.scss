@@ -1,0 +1,236 @@
+.container{
+  display: flex;
+  background-color: #E5ECF6;
+  flex-direction: column;
+  margin: 0 !important;
+  padding: 0% !important;
+}
+.container1 {
+  display: flex;
+  display: inline-block;
+  width: 45%; /* Largeur de chaque conteneur pour qu'ils puissent tenir deux par ligne */
+  margin: 0 2.5%; /* Marge entre les conteneurs */
+  vertical-align: top; /* Alignement en haut pour éviter des écarts étranges */
+  
+}
+
+.left {
+  width: 35%;
+  
+}
+
+.right {
+  width: 65%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.row {
+  width: 100%;
+  display: flex;
+}
+
+.square {
+  width: 50%;
+  border: 1px solid black;
+}
+
+/* Optionnel : Ajustez la taille des carrés pour s'adapter à la taille de la fenêtre */
+@media (max-width: 768px) {
+  .square {
+      width: 100%;
+      padding-bottom: 100%;
+  }
+}
+.daterow,
+.titlerow,
+.textrow,
+.buttonrow {
+    padding: 10px;
+    /* border-bottom: 1px solid #ccc; */
+}
+
+.buttonrow {
+    text-align: right;
+}
+.toprow {
+  border-bottom: 1px solid black; /* Ajoute une bordure en bas pour les div du haut */
+ 
+  
+}
+.linkrow {
+  text-align: right;
+  margin-bottom: 15px;
+}
+.titlerow{
+  font-weight: bold;
+}
+.test{
+  display: flex;
+}
+.color{
+  color:#00965E ;
+}
+.searchcontainer {
+  /* display: flex; */
+  /* align-items: center; /* Alignement vertical au centre */
+  /* margin-left: 3%; 
+  flex-direction: row-reverse;  */
+  margin-left: auto;
+  
+  
+}
+
+.searchcontainer input {
+  width: 250px; /* Largeur de la barre de recherche */
+  margin-right: 20px; /* Marge à droite pour séparer de l'h2 */
+  border-radius: 5px;
+  border: none;
+  padding-left: 10px;
+}
+.aboverow {
+  display: flex;
+    align-items: center; /* Aligner les éléments verticalement */
+    padding: 10px; /* Ajouter un espacement autour */
+}
+.color2{
+  color: #6D7580;
+}   
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap');
+
+*, *:after, *:before {
+	box-sizing: border-box;
+}
+	
+:root {
+	--c-theme-primary: #008FFD;
+	--c-theme-primary-accent: #CBE8FF;
+	--c-bg-primary: #ffffff;
+	--c-bg-secondary: #EAEBEC;
+	--c-bg-tertiary: #E5ECF6;
+	--c-text-primary: #1F1F25;
+	--c-text-secondary: #999FA6;
+}
+
+body {
+	font-family: "Inter", sans-serif;
+	line-height: 1.5;
+	min-height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: var(--c-bg-primary);
+	color: var(--c-text-primary);
+}
+
+button {
+	font: inherit;
+	cursor: pointer;
+	&:focus {
+		outline: 0;
+	}
+}
+
+
+.datepicker {
+	width: 95%;
+	max-width: 350px;
+	background-color: var(--c-bg-tertiary);
+	// border-radius: 10px;
+	// box-shadow: 0 0 2px 0 rgba(#000, .2), 0 5px 10px 0 rgba(#000, .1);
+	padding: 1rem;
+  border: none;
+}
+
+.datepickertop {
+	margin-bottom: 1rem;
+}
+
+.btngroup {
+	display: flex;
+	flex-wrap: wrap;
+	margin-bottom: 1rem;
+	margin-top: -.5rem;
+}
+
+.tag {
+	margin-right: .5rem;
+	margin-top: .5rem;
+	border: 0;
+	background-color: var(--c-bg-secondary);
+	border-radius: 10px;
+	padding: .5em .75em;
+	font-weight: 600;
+}
+
+.monthselector {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.arrow {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border: none;
+	background-color:#E5ECF6;
+	// border-radius: 12px;
+	width: 2.5rem;
+	height: 2.5rem;
+	// box-shadow: 0 0 2px 0 rgba(#000,.25), 0 0 10px 0 rgba(#000, .15);
+}
+
+.monthname {
+	font-weight: 600;
+}
+
+.datepickercalendar {
+	display: grid;
+	grid-template-columns: repeat(7, 1fr);
+	grid-row-gap: 1rem;
+}
+
+.day, .date {
+	justify-self: center;
+}
+
+.day {
+	color: var(--c-text-secondary);
+	font-size: .875em;
+	font-weight: 500;
+	justify-self: center;
+}
+
+.date {
+	border: 0;
+	padding: 0;
+	width: 2.25rem;
+	height: 2.25rem;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-radius: 6px;
+	font-weight: 600;
+	border: 2px solid transparent;
+	background-color: transparent;
+	cursor: pointer;
+	&:focus {
+		outline: 0;
+		color: var(--c-theme-primary);
+		border: 2px solid var(--c-theme-primary-accent);	
+	}	
+}
+
+.faded {
+	color: var(--c-text-secondary);
+}
+
+.currentday {
+	color: #FFF;
+	border-color: var(--c-theme-primary);
+	background-color: var(--c-theme-primary);
+	&:focus {
+		background-color: var(--c-theme-primary-accent);
+	}
+}

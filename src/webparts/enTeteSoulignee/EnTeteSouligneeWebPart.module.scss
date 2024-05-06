@@ -1,0 +1,20 @@
+.underline {
+  position: absolute;
+  left: 0;
+  bottom: -5px;
+  width: 100%;
+  border-bottom: 2px solid #00965E;
+}
+.titlecontainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.title1 {
+  font-size: 24px;
+  color: #0E376A;
+  margin-bottom: 15px;
+  // margin-left: 84px;
+  font-weight: bold;
+  position: relative;
+}

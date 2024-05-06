@@ -1,0 +1,111 @@
+@import '~@microsoft/sp-office-ui-fabric-core/dist/sass/SPFabricCore.scss';
+// @import '~@fortawesome/fontawesome-free/css/all.min.css';
+@import "~@fortawesome/fontawesome-free/scss/fontawesome";
+@import url(https://fonts.googleapis.com/css?family=Oswald|Roboto|Slabo+27px);
+
+
+
+
+
+
+
+
+.helloWorld {
+  overflow: hidden;
+  padding: 1em;
+  color: "[theme:bodyText, default: #323130]";
+  color: var(--bodyText);
+  &.teams {
+    font-family: $ms-font-family-fallbacks;
+  }
+}
+
+.welcome {
+  text-align: center;
+}
+
+.welcomeImage {
+  width: 100%;
+  max-width: 420px;
+}
+
+.links {
+  a {
+    text-decoration: none;
+    color: "[theme:link, default:#03787c]";
+    color: var(--link); // note: CSS Custom Properties support is limited to modern browsers only
+
+    &:hover {
+      text-decoration: underline;
+      color: "[theme:linkHovered, default: #014446]";
+      color: var(--linkHovered); // note: CSS Custom Properties support is limited to modern browsers only
+    }
+  }
+}
+
+.list {
+  color: #333333;
+  font-family: 'Segoe UI Regular WestEuropean', 'Segoe UI', Tahoma, Arial, sans-serif;
+  font-size: 14px;
+  font-weight: normal;
+  box-sizing: border-box;
+  margin: 10;
+  padding: 10;
+  line-height: 50px;
+  list-style-type: none;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2), 0 25px 50px 0 rgba(0, 0, 0, 0.1);
+}
+
+.listItem {
+  color: #ffffff;
+  vertical-align: center;
+  font-family: 'Segoe UI Regular WestEuropean', 'Segoe UI', Tahoma, Arial, sans-serif;
+  font-size: 14px;
+  font-weight: normal;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-shadow: none;
+  *zoom: 1;
+  padding: 9px 28px 3px;
+  position: relative;
+}
+
+
+
+// test yassine style card
+
+.customcardwidth {
+  width: 100%;
+  max-width: 400px; /* Vous pouvez ajuster la largeur maximale selon vos besoins */
+  margin: auto; /* Centre la carte horizontalement */
+}
+
+
+/* Ajoutez ces styles pour le trait vertical */
+.verticalline {
+  border-left: 2px solid #000000; /* Couleur du trait vertical */
+  height: 50%;
+  margin: 0 10px; /* Espace entre le trait et les éléments adjacents */
+}
+
+/* Ajoutez cette classe à votre fichier SCSS pour styliser la température */
+.boldTemperature {
+  font-weight: bold;
+  font-size: 5em; /* Vous pouvez ajuster la taille de la police selon vos préférences */
+}
+.ControlZone--position {
+  margin-bottom: 0 !important;
+}
+
+/* Supprimer les marges à l'intérieur des sections */
+.card-body {
+  margin-top: 0 !important;
+}
+
+/* Supprimer les marges à l'intérieur des colonnes */
+.col-4 {
+  margin-bottom: 0 !important;
+}
+
+

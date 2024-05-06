@@ -1,0 +1,21 @@
+.container {
+  height: 400px; /* Hauteur fixe de la div */
+  overflow-y: auto; /* Ajoute une barre de défilement verticale si le contenu dépasse la hauteur */
+  border: 1px solid #ccc; /* Bordure pour la div */
+  padding: 10px; /* Espace interne de la div */
+  background-color:#F3F4F3 ;
+  border-radius: 5px;
+}
+
+.content {
+  max-height: 100%; /* Hauteur maximale du contenu de la div */
+  margin: 20px !important;
+}
+
+p {
+  margin-bottom: 20px; /* Espace entre les paragraphes */
+}
+
+h3 {
+  margin-bottom: 5px; /* Espace entre le titre et le contenu */
+}

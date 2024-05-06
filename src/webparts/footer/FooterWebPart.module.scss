@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@700&display=swap');
+
+.body {
+  /* background-color: #f3f6fd; */
+  font-family: "Open Sans", sans-serif; /* Utilisation de la police Open Sans */
+  font-size: 16px; /* Taille de la police 16 pixels */
+  color: #ffffff;
+  width: 100% !important;
+  margin-top: 15px;
+    
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0
+}
+
+ul>li {
+  padding: 4px;
+  color:#C5CAE9;
+}
+
+ul>li:hover {
+  color: #957bda;
+  cursor: pointer
+}
+
+hr {
+  border-width: 3px
+}
+
+.card {
+  padding: 2% 7%;
+  width: 100% !important;
+  padding-left: 50px !important;
+  margin-left: 0px !important;
+}
+
+.social>i {
+  padding: 1%;
+  font-size: 15px;
+  margin-right: 5px;
+  color: #C5CAE9;
+}
+
+.social>i:hover {
+  color: #00965E;
+  cursor: pointer
+}
+
+.policy>div {
+  padding: 4px
+}
+
+.heading {
+  font-family: 'Titillium Web', sans-serif;
+  color: black
+}
+
+.divider {
+  border-top: 2px solid;
+  // width: 80% !important;
+  margin-left: 70px;
+  margin-right: 70px;
+  color: #C5CAE9;
+    
+    
+}
+.logo{
+  width: 200px;
+  height: 80px;
+}
+.h5 {
+  color: #00965E !important;
+  font-family: "Open Sans", sans-serif; /* Utilisation de la police Open Sans */
+  font-size: 13px; /* Taille de la police 16 pixels */
+  font-weight: 600; /* Semi-bold (600 est la valeur de font-weight pour semi-bold dans Open Sans) */
+}
+.copy{
+  font-family: "Open Sans", sans-serif; /* Utilisation de la police Open Sans */
+  font-size: 14px; /* Taille de la police 16 pixels */
+  color: #C5CAE9;
+}
+.a{
+  font-family: "Open Sans", sans-serif; /* Utilisation de la police Open Sans */
+  font-size: 16px; /* Taille de la police 16 pixels */
+  color: #C5CAE9;
+}
+.a:hover{
+  color: #00965E;
+  text-decoration: none;
+}

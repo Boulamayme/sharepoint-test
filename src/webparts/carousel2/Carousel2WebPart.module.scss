@@ -1,0 +1,149 @@
+.test{
+  height: 300px !important;
+  width: 100% !important;
+}
+.image{
+  width: 100% !important;
+  height: 300px !important;
+  display: block; 
+}
+.slide{
+  position: relative;
+}
+
+.image-caption{
+  border-radius: 5px; 
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+  background:  rgba(0, 61, 165, 0.50); /* Fond semi-transparent noir pour la légende */
+  color: white;
+  padding: 10px;
+  margin-left: 40px;
+}
+.navigation-chevron {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 24px;
+  color: white;
+  cursor: pointer;
+  z-index: 1000 !important; 
+}
+
+.left-chevron{
+  left: 10px;
+  
+  // position: absolute;
+  // top: 50%;
+  // transform: translateY(-50%);
+  // font-size: 24px;
+  // color: white;
+  // cursor: pointer;
+}
+
+.right-chevron{
+  right: 10px;
+  // margin-left: 50px !important;
+  // position: absolute;
+  // top: 50%;
+  // transform: translateY(-50%);
+  // font-size: 24px;
+  // color: white;
+  // cursor: pointer;
+}
+.image2{
+  margin-left: 20px !important;
+}
+.legende{
+  width: 400px;
+  
+
+}
+.titre{
+  font-weight: bold;
+  font-size: 20px;
+}
+.buttonContainer {
+  position: absolute;
+  bottom: 10px; /* Ajustez selon vos besoins, pour l'espacement par rapport au bas */
+  right: 10px; /* Ajustez selon vos besoins, pour l'espacement par rapport à droite */
+}
+
+/* Styles pour le bouton */
+.customButton {
+  background-color: #ffffff; /* Couleur du bouton */
+  color: #003DA5; /* Couleur du texte du bouton */
+  font-weight: bold;
+  font-size: 10px;
+  padding: 5px 10px; /* Ajustez la taille du bouton selon vos besoins */
+  border: none;
+  border-radius: 3px; /* Ajustez selon vos besoins */
+  cursor: pointer;
+}
+.texte{
+  width: 250px;
+}
+/* Supprimer les marges entre les sections */
+.ControlZone--position {
+  margin-bottom: 0 !important;
+}
+
+/* Supprimer les marges à l'intérieur des sections */
+.card-body {
+  margin-bottom: 0 !important;
+}
+
+/* Supprimer les marges à l'intérieur des colonnes */
+.col-4 {
+  margin-bottom: 0 !important;
+  margin: 0 !important;
+}
+
+.a_a_50a7110f:not(.a_a_50a7110f.root-137) {
+  padding: 0 !important;
+}
+.a_e_50a7110f:not(.c_e_50a7110f) {
+  margin: 0 !important;
+}
+
+
+.ControlZone {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.a_b_50a7110f{ 
+  padding: 0 !important;  
+  margin: 0 !important;    
+
+}
+.k_b_50a7110f{
+  padding: 0 !important;  
+  margin: 0 !important; 
+}
+.CanvasSection{
+  padding: 0 !important;  
+  margin: 0 !important; 
+}
+.CanvasSection-col{
+  padding: 0 !important;  
+  margin: 0 !important; 
+}
+.CanvasSection-sm12{
+  padding: 0 !important;  
+  margin: 0 !important; 
+}
+.CanvasSection--read{
+  padding: 0 !important;  
+  margin: 0 !important; 
+}
+.CanvasSection-xl12{
+  padding: 0 !important;  
+  margin: 0 !important; 
+}
+.l_b_50a7110f{
+  padding: 0 !important;  
+  margin: 0 !important; 
+}

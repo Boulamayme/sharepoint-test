@@ -1,0 +1,45 @@
+.card1{
+
+  border: 1px  #ccc;
+  border-radius: 14px;
+  // overflow: hidden;
+  height: 350px;
+  width: 350px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Ajouter une ombre noire avec transparence */
+  transition: transform 0.3s; /* Ajouter une transition pour un effet plus fluide lors du changement de taille */
+  
+}
+
+.button1{
+  background-color: rgba(0, 150, 94, 0.1) !important;
+  color: #00965E !important;
+  width: 100px;
+}
+.img{
+  width:100px;
+  height: 100px;
+  margin-top: 20px;
+  border: 9px solid #00965E;
+ 
+
+  // object-fit: cover;
+}
+.date1{
+  margin-left: 20px;
+  margin-top: 5px;
+}
+.text1{
+color: #0B7077 !important;
+}
+.nom1{
+   font-size: large;
+   font-weight: bold;
+   margin-top: 10px;
+}
+.poste{
+  font-size: large;
+  
+  margin-top: 10px;
+  margin-bottom: 15px;
+}
+

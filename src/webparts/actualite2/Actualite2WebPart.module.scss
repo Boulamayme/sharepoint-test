@@ -1,0 +1,92 @@
+.container {
+  display: flex;
+  height: auto; /* 100% de la hauteur de la fenêtre */
+  margin-top: 40px;
+}
+.left {
+  flex: 1; /* Prend la moitié de l'espace disponible */
+  /* background-color: lightblue; */
+  margin-right: 15px;
+}
+.right {
+  flex: 1; /* Prend la moitié de l'espace disponible */
+  display: flex;
+  flex-direction: column; /* Les éléments enfants seront alignés verticalement */
+}
+.righttop,
+.rightbottom {
+  flex: 1; /* Les deux div prennent la même quantité d'espace disponible */
+      /* background-color: lightgreen; */
+      display: flex;
+      flex-direction: row;
+      
+}
+// img {
+//   width: 95% !important; /* Pour s'assurer que l'image ne dépasse pas de sa div parente */
+//   height: 50%;
+//   margin-right: 20px;
+// }
+.img1 {
+  width: 100%; /* Pour s'assurer que l'image ne dépasse pas de sa div parente */
+  height: 90%;
+  
+  
+}
+.img2 {
+  width: 100% !important; /* Pour s'assurer que l'image ne dépasse pas de sa div parente */
+  height: 90%;
+  margin-top: 20px;
+  
+}
+.title {
+  margin-top: 10px;
+  font-weight: bold;
+  font-size: 20px;
+}
+.text {
+  margin-top: 5px;
+}
+.image {
+  /* flex: 1; L'image prendra la moitié de l'espace disponible de la div parente */
+  width: 50%;
+ 
+}
+.content {
+  flex: 1; /* Le contenu prendra également la moitié de l'espace disponible */
+  padding: 10px;
+}
+.titlecontainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.title1 {
+  font-size: 24px;
+  color: #0E376A;
+  margin-bottom: 15px;
+  // margin-left: 84px;
+  font-weight: bold;
+  position: relative;
+}
+
+.underline {
+  position: absolute;
+  left: 0;
+  bottom: -5px;
+  width: 100%;
+  border-bottom: 2px solid #00965E;
+}
+
+.button {
+  // margin-right: 84px;
+  width: 150px;
+  background-color: #00965E;
+  color: #ffffff;
+  border:  0px  #00965E;
+  padding: 8px 12px !important;
+}
+body{
+  margin: 0 !important;
+  padding: 0 !important;
+}
